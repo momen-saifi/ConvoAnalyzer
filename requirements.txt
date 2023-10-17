@@ -9,4 +9,6 @@ streamlit==1.14.0
 textblob==0.17.1
 urlextract==1.8.0
 wordcloud==1.9.2
+altair>=4.1.0
+
 
