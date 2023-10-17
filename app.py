@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the header image
-header_image_path = 'C:\\Users\\Momeen\\PycharmProjects\\whatsapp-chat-analyzer\\header_1.png'
+header_image_path = 'header_1.png'
 header_image_width = 600
 header_image_height = 100
 
