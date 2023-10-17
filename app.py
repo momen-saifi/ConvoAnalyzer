@@ -2,13 +2,13 @@ import streamlit as st
 import preprocessor
 import helper
 import io
-import pandas as pd
-from PIL import Image
 import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
 import plotly.express as px
+
 # Set the desired width and height of the header image
+header_image_width = 600  # Adjust this value to your desired width
 header_image_width = 600  # Adjust this value to your desired width
 header_image_height = 100  # Adjust this value to your desired height
 
