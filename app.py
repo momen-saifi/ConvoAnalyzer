@@ -2,23 +2,19 @@ import streamlit as st
 import preprocessor
 import helper
 import io
-import matplotlib.pyplot as plt
-import seaborn as sns
 from PIL import Image
 import plotly.express as px
-
-# Set the desired width and height of the header image
-header_image_width = 600  # Adjust this value to your desired width
-header_image_width = 600  # Adjust this value to your desired width
-header_image_height = 100  # Adjust this value to your desired height
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Load the header image
-header_image = Image.open('C:\\Users\\Momeen\\PycharmProjects\\whatsapp-chat-analyzer\\header_1.png')  # Path to your local header image
+header_image_path = 'C:\\Users\\Momeen\\PycharmProjects\\whatsapp-chat-analyzer\\header_1.png'
+header_image_width = 600
+header_image_height = 100
 
-# Resize the image
+header_image = Image.open(header_image_path)
 resized_header_image = header_image.resize((header_image_width, header_image_height))
 
-# Display the resized header image
 st.image(resized_header_image)
 
 # Set background image using st.markdown
