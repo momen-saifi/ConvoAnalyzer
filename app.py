@@ -13,8 +13,8 @@ header_image_width = 600  # Adjust this value to your desired width
 header_image_height = 100  # Adjust this value to your desired height
 
 # Load the header image
-header_image = Image.open('https://github.com/momen-saifi/ConvoAnalyzer/blob/main/header.jpg')  # Path to your local header image
-
+header_image_path = 'header_1.png'
+header_image = Image.open(header_image_path)
 # Resize the image
 resized_header_image = header_image.resize((header_image_width, header_image_height))
 
