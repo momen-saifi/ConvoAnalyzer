@@ -1,5 +1,5 @@
 emoji==2.8.0
-matplotlib==3.8.0
+matplotlib==3.5.3
 pandas==2.1.1
 Pillow==9.5.0
 plotly==5.17.0
